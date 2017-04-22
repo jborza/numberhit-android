@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#33000000">
+    <TextView
+        android:id="@+id/level"
+        style="@style/txt"
+        android:text="64"        
+        android:textSize="22sp" 
+        android:layout_marginLeft="4dip"
+        android:layout_marginTop="8dip"
+        android:layout_width="46sp"/>
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="12dip"
+        android:layout_height="36dp"
+        android:layout_toRightOf="@id/level" />
+    <TextView
+        android:id="@+id/best"
+        style="@style/txt"
+        android:layout_alignLeft="@id/progress"
+        android:layout_marginLeft="8dip"
+        android:textSize="10sp"
+        android:text="Best: 1.234" />
+    <TextView
+        android:id="@+id/avg"
+        style="@style/txt"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="6dip"
+        android:layout_alignParentBottom="true"
+        android:textSize="9sp"
+        android:text="Average: 2.456" />
+</RelativeLayout>

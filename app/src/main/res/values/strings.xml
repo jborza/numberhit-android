@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Numberhit</string>
+    <string name="feedback">Feedback</string>
+    <string name="how_to">How to play</string>
+    <string name="play">New Game</string>
+    <string name="high_scores">High Score</string>
+    <string name="sound">Sound</string>
+</resources>
